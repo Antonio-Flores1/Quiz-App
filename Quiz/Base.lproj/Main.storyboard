@@ -16,35 +16,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFL-c4-3Kk" userLabel="???">
-                                <rect key="frame" x="195" y="74" width="25" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFL-c4-3Kk" userLabel="???">
+                                <rect key="frame" x="194.66666666666666" y="74" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tv-LD-ass">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tv-LD-ass">
                                 <rect key="frame" x="136" y="400" width="142" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Shower Answer"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuK-wl-L5Y">
-                                <rect key="frame" x="141" y="103" width="133" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next Question"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqN-P9-f9H">
-                                <rect key="frame" x="195" y="371" width="25" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqN-P9-f9H">
+                                <rect key="frame" x="194.66666666666666" y="371" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuK-wl-L5Y">
+                                <rect key="frame" x="140.66666666666666" y="103" width="132.99999999999997" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next Question"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VuK-wl-L5Y" firstAttribute="top" secondItem="nFL-c4-3Kk" secondAttribute="bottom" constant="8" symbolic="YES" id="7Kx-nw-d4F"/>
+                            <constraint firstItem="2Tv-LD-ass" firstAttribute="top" secondItem="CqN-P9-f9H" secondAttribute="bottom" constant="8" symbolic="YES" id="APK-n5-rJj"/>
+                            <constraint firstItem="2Tv-LD-ass" firstAttribute="centerX" secondItem="VuK-wl-L5Y" secondAttribute="centerX" id="NiL-M8-NQt"/>
+                            <constraint firstItem="nFL-c4-3Kk" firstAttribute="centerX" secondItem="VuK-wl-L5Y" secondAttribute="centerX" id="X6a-Dm-hFz"/>
+                            <constraint firstItem="CqN-P9-f9H" firstAttribute="top" secondItem="VuK-wl-L5Y" secondAttribute="bottom" constant="233" id="XSK-99-MJc"/>
+                            <constraint firstItem="nFL-c4-3Kk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="bke-hH-ssV"/>
+                            <constraint firstItem="CqN-P9-f9H" firstAttribute="centerX" secondItem="VuK-wl-L5Y" secondAttribute="centerX" id="hPZ-yL-kRH"/>
+                            <constraint firstItem="nFL-c4-3Kk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vLG-DX-Qdi"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
